@@ -1,0 +1,19 @@
+{
+  "prefix" : "!",
+  "salesrep": "Support",
+
+  "_comment": "Who can use '!setrep'",
+  "setreprole": "Support",
+
+  "__comment": "The commission channel",
+  "comChannel": "commissions",
+
+  "___comment": "The color of each embed [HEX]",
+  "embedcolor": "#008000",
+
+  "____comment": "Status will come out as 'Playing {status}'",
+  "status": "!new [Subject]",
+
+  "footer": "CobraPvP Bot | 2018",
+  "token" : "NDY0NDgxNTczMzA4MzM0MTAw.DiUJfw.039MiZFt1jgLvgpjrolwvXrcrAs"
+}
