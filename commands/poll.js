@@ -11,7 +11,7 @@ let pollmessage = new Discord.RichEmbed();
 .setDescription(msg)
 .setColor(config.embedcolor);
 
-let messageuser = await bots.channels.get('481540083783303188').send(polmessage);
+let messageuser = await bot.channels.get('481540083783303188').send(polmessage);
 await messageuser.react('✅');
 await messageuser.react('❎');
 }
