@@ -22,14 +22,14 @@ module.exports.run = async (bot,messsage,args) => {
 
   let thirdmessage = message.channel.send("Hello!");
 
-  let message = new Discord.RichEmbed()
+  let message1 = new Discord.RichEmbed()
   .setTitle("**PM Message**")
   .setDescription("I can pm you to:D")
   .setColor(config.embedcolor);
 
-  message.author.send(message);
+  message.author.send(message1);
   
-  let message1 = message.author.send("I can pm this way too.")
+  let message2 = message.author.send("I can pm this way too.")
 }
 
 module.exsports.help = {
